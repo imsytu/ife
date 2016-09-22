@@ -1,0 +1,93 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+body {
+	font-family: STHeiti;
+}
+
+.withBorder {
+	border: #999 solid 1px; 
+}
+
+img {
+	vertical-align: bottom;
+}
+
+main {
+	margin: 20px;
+	padding: 20px;
+	height: 415px;
+	min-width: 800px;
+	background-color: #eee;
+	position: relative;
+	/* overflow: hidden; */
+}
+
+#nogi_name {
+	color: #730e7a;
+	font-weight: bolder;
+}
+
+/*left: name and logo of the group*//*************************************************/
+#left_col {
+	background-color: white;
+	width: 158px;
+	padding: 20px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 10;
+}
+
+#left_col img {
+	width: 80px;
+	height: 80px;
+}
+
+#left_col span {
+	float: right;
+}
+
+/*right: member of the group*//*************************************************/
+#right_col {
+	background-color: white;
+	width: 82px;
+	padding: 20px 18px;
+	position: absolute;
+	right: 20px;
+	z-index: 15;
+}
+
+#right_col img {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 15px;
+}
+
+#right_col img:last-child {
+	margin-bottom: 0;
+}
+
+/*middle: introduction of the group*//*************************************************/
+#mid_col {
+	background-color: white;
+	width: auto;
+	padding: 20px;
+	margin: 0 140px 0 220px ;
+	overflow: auto;
+	max-height: 366px;
+	position: relative;
+	z-index: 5;
+}
+
+#mid_col p {
+	margin-bottom: 16px;	
+}
+
+#mid_col p:last-child {
+	margin-bottom: 0;	
+}
+
