@@ -53,9 +53,7 @@ header ul li:hover {
 	border-radius: 3px;
 }
 
-/*主体*/
-
-/*************************************************/
+/*主体*//*************************************************/
 article,
 aside {
 	display: block;
@@ -82,17 +80,28 @@ article p {
 article img {
 	padding: 20px 0;
 }
+
+article ul {
+	margin: 0 20px 20px;
+	list-style-type: none;
+}
 /*img_list*//*************************************************/
+article dl {
+	overflow: hidden;
+	width: 900px;
+}
 article dl dd {
 	width: 130px;
-	margin: 10px 0 15px 35px;
+	margin:  10px;
 	border: 1px solid #cccdce;
+	float: left;
 }
 
 article dl dd span {
 	text-align: center;
 	display: block;
 	font-size: 13px;
+	/* margin: 5px; */
 	padding-top: 10px;
 }
 
@@ -159,9 +168,10 @@ table th {
 	font-size: 12px;
 }
 
-/*侧栏*/
-
-/*************************************************/
+/*侧栏*//*************************************************/
+aside {
+	/* float: right; */
+}
 aside h4 {
 	height: 35px;
 	line-height: 40px;
