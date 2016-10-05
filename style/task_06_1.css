@@ -175,12 +175,11 @@ main {
 	font: bold 16px "Microsoft YaHei";
 	color: rgb(204, 118, 128);
 	text-decoration: underline;
-	/* position: absolute; */
-	/* left: 532px;` */
-	/* top: 0; */
 }
 
-.mid_right span.down {
+.mid_right span.down_qianduan_text {
+	/*mac 这里前端的字会往上紧跟How*/
+	margin-top: 20px;
 	font-size: 12px;
 	font-family: "SimSun";
 	color: rgba(35, 24, 21, 0.7);
