@@ -1,0 +1,324 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+img {
+	display: block;
+}
+/*header*//****************************************/
+header {
+	padding: 0 40px 40px;
+	position: relative;
+	width: 892px;
+}
+header div#redbox {
+	position: relative;
+}
+/* header img {
+	display: block;
+} */
+header span {
+	font: 12px SimHei, Microsoft JhengHei;
+}
+span#header_text_left {
+	color:  #fff;
+	position: absolute;
+	bottom:5px;
+	left: 5px;
+}
+span#header_text_right {
+	color: #d45d5c;
+	position: absolute;
+	top: 42px;
+	right: 40px;
+	/* margin-left: 880px; */
+}
+
+.顶部灰线条 {
+	background-color: rgb(147, 142, 140);
+	position: absolute;
+	left: 45px;
+	top: 61px;
+	width: 892px;
+	height: 2px;
+	position: absolute;
+	bottom: 0;
+	left: 40px;
+}
+
+/*main*//****************************************/
+main {
+	padding: 0 40px 40px;
+	/* position: relative; */
+/*main up area*//****************************************/
+}
+.up_area {
+	position: relative;
+}
+/* .up_area_left {
+	background-image: url(../img/task6/左上大图.jpg);
+	background-repeat: no-repeat;
+} */
+.up_area_left {
+	position: relative;
+	width: 641px;
+
+}
+.up_area_left #green {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.702;
+}
+.up_area_left #red {
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0.702;
+}
+
+.up_area_right {
+	position: relative;
+	width: 203px;
+	margin-left: 681px;
+
+}
+.up_area_right .粉色线条 {
+	background-color: rgb(204, 128, 145);
+	position: absolute;
+	top: 0;
+	/* left: 693px; */
+	left: 0;
+	width: 203px;
+	height: 2px;
+}
+
+.up_area_right .about_tech {
+	font-size: 24px;
+	font-family: "Microsoft YaHei";
+	color: rgb(0, 0, 0);
+	text-decoration: underline;
+	font-variant: small-caps;
+	line-height: 1.25;
+	position: absolute;
+	top:  10px;
+	width: 65px
+}
+
+.up_area_right .about_tech_s {
+	font: oblique 12px "KaiTi";
+	color: rgb(103, 103, 103);
+	line-height: 0.833;
+	position: absolute;
+	top: 70px;
+	left: 0;
+}
+
+.up_area_right .seven {
+	font-size: 116px;
+	font-style: oblique;
+	font-weight: 600;
+	font-family: "Microsoft YaHei";
+	color: rgb(117, 184, 107);
+	position: absolute;
+	top:110px;
+	left: -25px;
+}
+
+.up_area_right .three_two {
+	font-size: 55px;
+	font-family: "Microsoft YaHei";
+	color: rgb(204, 128, 145);
+	line-height: 1;
+	position: absolute;
+	top: 250px;
+	left: 0;
+}
+
+
+.up_area_right .css_1 {
+	font-size: 21px;
+	font-family: "Microsoft YaHei";
+	color: rgb(204, 128, 145);
+	line-height: 1;
+	position: absolute;
+	top: 270px;
+	left: 90px;
+}
+
+
+
+.up_area_right .css_2 {
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+	color: rgba(35, 24, 21, 0.4);
+	line-height: 1.167;
+	position: absolute;
+	top: 287px;
+	left: 90px;
+}
+/*main mid area*//****************************************/
+
+.mid_area {
+	position: relative;
+	margin: 40px 0 0;
+}
+/*main mid right area*//****************************************/
+
+.mid_right {
+	margin-left: 490px;
+	width: 130px;
+}
+
+.mid_right span.up {
+	display: block;
+	font: bold 16px "Microsoft YaHei";
+	color: rgb(204, 118, 128);
+	text-decoration: underline;
+	/* position: absolute; */
+	/* left: 532px;` */
+	/* top: 0; */
+}
+
+.mid_right span.down {
+	font-size: 12px;
+	font-family: "SimSun";
+	color: rgba(35, 24, 21, 0.7);
+}
+
+.mid_right span.down_down {
+	margin: 40px;
+}
+
+.mid_right span.down_down span.what {
+	padding-bottom: 16px;
+	display: block;
+	font: 12px "Microsoft YaHei";
+	color: #231815;
+}
+
+.mid_right span.down_down span.what span.red {
+	font: oblique 12px "Microsoft YaHei";
+	color: rgba(205, 74, 72, 0.7);
+}
+/*main mid mid area*//****************************************/
+.mid_mid span.up {
+	display: block;
+	font: bold 16px "Microsoft YaHei";
+	color: #d2994f;
+	text-decoration: underline;
+	position: absolute;
+	left: 256px;
+	top: 0;
+}
+
+.mid_mid span.down {
+	display: block;
+	font-size: 12px;
+	font-family: "SimSun";
+	width: 210px;
+	color: rgba(35, 24, 21, 0.7);
+	position: absolute;
+	left: 256px;
+	top: 33px;
+}
+
+/*main mid left area*//****************************************/
+.mid_left span.up {
+	display: block;
+	font: bold 16px "SimSun";
+	color: #418c59;
+	text-decoration: underline;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.mid_left span.down {
+	display: block;
+	font-size: 12px;
+	font-family: "SimSun";
+	width: 228px;
+	color: rgba(35, 24, 21, 0.7);
+	position: absolute;
+	left: 0;
+	top: 33px;
+}
+
+/*main down right up*//****************************************/
+.down_area_right {
+	margin-left: 434px;
+}
+.down_right_up {
+	background-image: url('../img/task6/peitu_screen.png');
+	background-repeat: no-repeat;
+	width: 458px;
+	height: 277px;
+	position: relative;
+}
+
+.down_right_up .blackback {
+	background-color: rgba(4, 0, 0, 0.4);
+	width: 458px;
+	height: 60px;
+	position: absolute;
+	bottom: 20px;
+}
+
+.down_right_up .blackback .greenline {
+	background-color: rgb(114, 177, 106);
+	width: 3px;
+	height: 44px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto 35px;
+}
+
+.down_right_up .blackback span#qianduanjishu {
+	color: rgba(255, 255, 255, 1);
+	font: 26px "Microsoft YaHei";
+	position: absolute;
+	top: 12px;
+	left: 50px;
+}
+
+.down_right_up .blackback span#qianduanjishu_green {
+	font: oblique 12px "Microsoft YaHei";
+	color: #72b16a;
+	position: absolute;
+	top: 28px;
+	left: 165px;
+	letter-spacing: 1.4px;
+	/*注意这里的1.4px不是任务要求的140%的字间距*/
+}
+
+/*main down right down*//****************************************/
+/*main down right down up*//****************************************/
+.down_right_down {
+	background-image: url('../img/task6/green_back.jpg');
+	width: 459px;
+	height: 318px;
+	margin-top: 10px;
+}
+
+.down_right_down ul {
+	padding: 30px;
+	list-style-position: inside;
+	list-style-image: url("../img/task6/tri.png");
+	font: 16px "SimSun";
+	text-align: left;
+	color: #5a5b5b;
+}
+
+.down_right_down ul li {
+	padding: 0 0 20px;
+}
+
+.down_right_down li span#qianduan_xie {
+	font: oblique 12px "SimSun";
+	margin-bottom: 20px;
+	text-align: right;
+	color: #5a5b5b;
+}
