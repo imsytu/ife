@@ -161,13 +161,16 @@ main {
 
 .mid_area {
 	position: relative;
-	margin: 40px 0 0;
+	margin: 40px 0;
 }
 /*main mid right area*//****************************************/
 
 .mid_right {
 	margin-left: 490px;
 	width: 130px;
+	font-size: 0;
+	padding-bottom: 12px;
+
 }
 
 .mid_right span.up {
@@ -175,14 +178,18 @@ main {
 	font: bold 16px "Microsoft YaHei";
 	color: rgb(204, 118, 128);
 	text-decoration: underline;
-	margin-bottom: 14px;
+	padding-bottom: 12px;
+	/*当margin-bottom: 14px; mac下间隔正确, 可是windows下就多出了空白部分*/
 }
 
 .mid_right span.down_qianduan_text {
 	/*mac 这里前端的字会往上紧跟How*/
+	display: block;
 	font-size: 12px;
 	font-family: "SimSun";
 	color: rgba(35, 24, 21, 0.7);
+	margin-bottom: 12px;
+
 }
 
 .mid_right span.down_down {
@@ -190,13 +197,17 @@ main {
 }
 
 .mid_right span.down_down span.what {
+	/*下面padding-bottom应该是16px 但是字体块大小有问题*/
 	padding-bottom: 16px;
+	/*为了实现16px的下内边距, 块的高度显式地设为了10px. 肯定还有更好的办法, inline-block? 或者用p instead pf scan?*/
+	height: 10px;
 	display: block;
 	font: 12px "Microsoft YaHei";
 	color: #231815;
 }
 
 .mid_right span.down_down span.what span.red {
+	vertical-align:bottom;
 	font: oblique 12px "Microsoft YaHei";
 	color: rgba(205, 74, 72, 0.7);
 }
@@ -247,6 +258,8 @@ main {
 /*main down right up*//****************************************/
 .down_area_right {
 	margin-left: 434px;
+	font-size:0;
+
 }
 .down_right_up {
 	background-image: url('../img/task6/peitu_screen.png');
