@@ -122,7 +122,7 @@ main {
 	color: rgb(117, 184, 107);
 	position: absolute;
 	top:110px;
-	left: -25px;
+	left: 0;
 }
 
 .up_area_right .three_two {
@@ -175,11 +175,11 @@ main {
 	font: bold 16px "Microsoft YaHei";
 	color: rgb(204, 118, 128);
 	text-decoration: underline;
+	margin-bottom: 14px;
 }
 
 .mid_right span.down_qianduan_text {
 	/*mac 这里前端的字会往上紧跟How*/
-	margin-top: 20px;
 	font-size: 12px;
 	font-family: "SimSun";
 	color: rgba(35, 24, 21, 0.7);
