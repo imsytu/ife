@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: STHeiti, "Microsoft YaHei";
+	font-family: STHeiti, "Microsoft JhengHei";
 	background-color: #dedede;
 }
 
@@ -16,7 +16,7 @@ header {
 	position: relative;
 }
 
-header h1 image {
+header h1 img {
 	position: absolute;
 	top: 7px;
 	padding-left: 38px;
@@ -79,7 +79,7 @@ article p {
 	text-indent: 2em;
 }
 
-article image {
+article img {
 	padding: 20px 0;
 }
 /*image_list*//*************************************************/
@@ -96,7 +96,7 @@ article dl dd span {
 	padding-top: 10px;
 }
 
-article dl dd image {
+article dl dd img {
 	width: 110px;
 	padding: 10px;
 	vertical-align: bottom;
