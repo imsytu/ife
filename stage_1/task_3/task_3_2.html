@@ -1,0 +1,36 @@
+<!-- 使用定位实现三栏, 三个div的顺序可以任意改变。 -->
+<!-- 此方法的优点在于：理解容易，上手简单，受内部元素影响而破坏布局的概率低，就是比较经得起折腾。
+缺点在于：如果中间栏含有最小宽度限制，或是含有宽度的内部元素，当浏览器宽度小到一定程margin-bottom: 15px;度，会发生层重叠的情况。 -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Task 3.2 | 三栏式布局</title>
+	<link rel="nogizaka icon" href="image/nogiicon.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="style/task_3_2.css">
+</head>
+<body>
+	<main class="withBorder">
+		<div id="left_col" class="withBorder">
+			<a href="http://www.nogizaka46.com/" target="_blank"><img src="image/logo2.png" alt="logo_of_nogizaka" title="组合标志" class="withBorder"></a>
+			<a href="http://www.nogizaka46.com/" target="_blank" title="官方网站"><span id="nogi_name">乃木坂46</span></a>
+		</div>
+		
+		<div id="right_col" class="withBorder">
+			<img src="image/himetan.jpg" alt="中元日芽香" title="中元日芽香"class="member_logo_1 withBorder">
+			<img src="image/ki.jpg" alt="北野日奈子" title="北野日奈子"class="member_logo_2 withBorder">
+			<img src="image/mayi.jpg" alt="白石麻衣" title="白石麻衣" class="member_logo_3 withBorder">
+			<img src="image/hori.jpg" alt="堀未央奈" title="堀未央奈" class="member_logo_4 withBorder">
+		</div>
+	
+		<div id="mid_col" class="withBorder">
+			<p>团队介绍:</p>
+			<p><a href="http://www.nogizaka46.com/" target="_blank"><span id="nogi_name" title="官方网站">乃木坂46</span></a>（Nogizaka46，缩写；NGZK46），日本大型女子偶像组合，总制作人和48系组合同为秋元康。2011年8月一期成员合格发表，2012年2月22日，正是凭借首张单曲《ぐるぐるカーテン》出道。组合目前共有37名成员，队长为樱井玲香.</p>
+			<p><a href="http://www.nogizaka46.com/" target="_blank"><span id="nogi_name" title="官方网站">乃木坂46</span></a>是作为AKB48的“官方对手”而成立的女子组合，因此跟AKB48及其姊妹组合（如SKE48等）不同，但操作方式则较为专业。组合名称中的“乃木坂”是索尼音乐（SME）总部大楼的所在地。“46”的意义则是：“就算人数比AKB48少，也有不逊于AKB48的干劲”。</p>
+			<p>2015年12月31日，携第5张单曲《君の名は希望》首次出战红白歌合战。</p>
+			<p>努力、感谢、笑颜。如果说元气和快乐是偶像标签的话，那么<a href="http://www.nogizaka46.com/" target="_blank"><span id="nogi_name" title="官方网站">乃木坂46</span></a>特征就在于拥有服装沉湎的氛围、哀伤的曲调、是这般的虚幻缥缈。另外由于活跃于时尚界的成员很多，所以女饭也出奇的多。</p>
+		</div>
+	</main>
+</body>
+</html>
