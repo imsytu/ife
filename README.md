@@ -1,7 +1,19 @@
-# sytu with ife
+### Baidu Institute of Front End Techonology
 
-####百度前端技术学院题目
+#### IFE_2016
+- [task list](http://ife.baidu.com/task/all)
+- [official site](http://ife.baidu.com/)
+- [stage_1](www)
+************************************************************
+#### Todo List
 
-- It is not just about having fun.
-- [tasks of ife](http://ife.baidu.com/task/all)
-- testig_line
+- task_2 needs to fit with wide screen in Windows
+- task_3 position of the text of Nogizaka46 on the right column
+- task_5 
+	1. left column
+	2. submit bottom not fit wide screen
+	3. need to compare
+- task_6 
+	1. need to compare
+	2. missing font and proper font-szie on mac
+
