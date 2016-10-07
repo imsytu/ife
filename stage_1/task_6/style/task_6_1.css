@@ -3,7 +3,7 @@
 	padding: 0;
 }
 
-image {
+img {
 	display: block;
 }
 
@@ -505,7 +505,7 @@ q::after {
 	text-indent: 0;
 }
 
-.down_left_down image {
+.down_left_down img {
 	float: right;
 	margin: 12px 0 12px 20px;
 }
