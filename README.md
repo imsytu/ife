@@ -3,7 +3,7 @@
 #### IFE_2016
 - [task list](http://ife.baidu.com/task/all)
 - [official site](http://ife.baidu.com/)
-- [stage_1](www)
+- [stage_1](https://github.com/imsytu/ife/tree/gh-pages/src/stage_1)
 ************************************************************
 #### Todo List
 
