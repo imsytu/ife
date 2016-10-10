@@ -9,21 +9,21 @@
 </head>
 
 <body>
-    <header role="banner">
-        <span>
-<a href="#">
-<image src="image/baidu.png" />
-</a>
-</span>
-        <nav role="navigation">
-            <ul>
-                <li><a href="#">导航链接一</a></li>
-                <li><a href="#">导航链接二</a></li>
-                <li><a href="#">导航链接三</a></li>
-                <li><a href="#">导航链接四</a></li>
-            </ul>
-        </nav>
-    </header>
+	<header role="banner">
+		<span>
+			<a href="#">
+				<image src="image/baidu.png" />
+			</a>
+		</span>
+		<nav role="navigation">
+			<ul>
+				<li><a href="#">导航链接一</a></li>
+				<li><a href="#">导航链接二</a></li>
+				<li><a href="#">导航链接三</a></li>
+				<li><a href="#">导航链接四</a></li>
+			</ul>
+		</nav>
+	</header>
     <aside>
         <h4>这里以后是一个侧栏, 这是侧栏的标题</h2>
 <form action="save.php" method="post">
@@ -35,16 +35,14 @@
     <div>
         <label class="tips">请输入密码</label>
         <input type="password" placeholder="密码" />
+        <p>密码请为6-16位英文数字</p>
     </div>
     <div>
         <label class="tips">请重复输入密码</label>
         <input type="password" placeholder="请重复输入密码" />
-        <p>密码请为6-16位英文数字</p>
     </div>
-    <!--同一组的单选按钮，name 取值一定要一致，这样同一组的单选按钮才可以起到单选的作用。-->
     <div>
         <label class="tips">性别</label>
-        <!--value提交数据到服务器的值；checked默认被选中-->
         <input type="radio" value="male" name="sex" checked="checked" />
         <label class="choice">男</label>
         <input type="radio" value="female" name="sex" />
@@ -171,7 +169,7 @@
     </article>
 </main>
 <footer>
-    <p>版权所有&copy;sytu</p>
+    <p>版权所有&copy;<a href="https://github.com/sytu" target="_blank">sytu</a></p>
 </footer>
 </body>
 

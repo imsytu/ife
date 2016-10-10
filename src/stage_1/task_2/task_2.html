@@ -10,9 +10,13 @@
 
 <body>
     <header role="banner">
-        <h1><a href="#"><image src="image/baidu.png" /></a></h1>
+        <span>
+            <a href="#">
+                <image src="image/baidu.png" />
+            </a>
+        </span>
         <nav role="navigation">
-            <ul id="nav_list">
+            <ul>
                 <li><a href="#">导航链接一</a></li>
                 <li><a href="#">导航链接二</a></li>
                 <li><a href="#">导航链接三</a></li>
@@ -160,12 +164,14 @@
 					<label class="tips">个人描述</label>
 					<textarea rows="2" cols="20" >这是一个多行输入框( •̀ .̫ •́ )✧</textarea>
 				</div>
-				<input type="submit" id="submit_button" value="确认提交" />
+                <div class="submit_button">
+                    <input type="submit" id="submit_button" value="确认提交" />
+                </div>
 			</form>
 		</aside>
 
 		<footer>
-			<p>版权所有&copy;sytu</p>
+			<p>版权所有&copy;<a href="https://github.com/sytu" target="_blank">sytu</a></p>
 		</footer>
 	</body>
 </html>
