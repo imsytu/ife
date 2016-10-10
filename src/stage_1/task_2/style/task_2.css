@@ -235,7 +235,7 @@ aside .choice, input[type="radio"], input[type="checkbox"], select {
     margin-right: 5px;
 }
 aside .choice {
-	vertical-align: 11px;
+	vertical-align: 10px;
 }
 aside textarea {
     width: 38%;
