@@ -296,3 +296,8 @@ footer {
     text-align: center;
     font-size: 0.8em;
 }
+
+footer a[href="https://github.com/sytu"] {
+	text-decoration: none;
+	color: #f9f4f8;
+}
