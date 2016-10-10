@@ -13,7 +13,7 @@ body {
 /*头部*//*************************************************/
 header {
 	background-color: #323334;
-	height: 70px;
+	height: 60px;
 	width: 100%;
 	display: table;
   	vertical-align: middle;
@@ -37,7 +37,7 @@ nav ul {
 nav ul li {
 	float: left;
 	list-style-position: outside;
-	line-height: 70px;
+	line-height: 60px;
 	margin-right: 30px;
 
 }
