@@ -57,7 +57,6 @@ nav ul li a:visited {
 }
 
 nav ul li:hover {
-    border-bottom: 1px solid #7d1983;
     background: #474747;
     color: darkgray;
     border-radius: 3px;
