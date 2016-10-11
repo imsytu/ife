@@ -21,7 +21,7 @@ header div#redbox {
 }
 
 header span {
-	font: 12px SimHei, Microsoft JhengHei;
+	font: 12px SimHei, Microsoft JhengHei, STXihei;
 }
 
 span#header_text_left {
@@ -34,7 +34,7 @@ span#header_text_left {
 span#header_text_right {
 	color: #d45d5c;
 	position: absolute;
-	top: 42px;
+	top: 44px;
 	right: 40px;	/* margin-left: 880px; */
 }
 
@@ -99,7 +99,7 @@ main {
 
 .up_area_right .about_tech {
 	font-size: 24px;
-	font-family: "Microsoft YaHei";
+	font-family: "Microsoft YaHei", STXihei;
 	color: rgb(0, 0, 0);
 	text-decoration: underline;
 	font-variant: small-caps;
@@ -110,11 +110,11 @@ main {
 }
 
 .up_area_right .about_tech_s {
-	font: oblique 12px "KaiTi";
+	font: oblique 12px "KaiTi", STXihei;
 	color: rgb(103, 103, 103);
 	line-height: 0.833;
 	position: absolute;
-	top: 70px;
+	top: 75px;
 	left: 0;
 }
 
@@ -122,7 +122,7 @@ main {
 	font-size: 116px;
 	font-style: oblique;
 	font-weight: 600;
-	font-family: "Microsoft YaHei";
+	font-family: "Microsoft YaHei", STXihei;
 	color: rgb(117, 184, 107);
 	position: absolute;
 	top: 110px;
@@ -131,7 +131,7 @@ main {
 
 .up_area_right .three_two {
 	font-size: 55px;
-	font-family: "Microsoft YaHei";
+	font-family: "Microsoft YaHei", STXihei;
 	color: rgb(204, 128, 145);
 	line-height: 1;
 	position: absolute;
@@ -141,7 +141,7 @@ main {
 
 .up_area_right .css_1 {
 	font-size: 21px;
-	font-family: "Microsoft YaHei";
+	font-family: "Microsoft YaHei", STXihei;
 	color: rgb(204, 128, 145);
 	line-height: 1;
 	position: absolute;
@@ -151,7 +151,7 @@ main {
 
 .up_area_right .css_2 {
 	font-size: 12px;
-	font-family: "Microsoft YaHei";
+	font-family: "Microsoft YaHei", STXihei;
 	color: rgba(35, 24, 21, 0.4);
 	line-height: 1.167;
 	position: absolute;
@@ -181,7 +181,7 @@ main {
 
 .mid_right span.up {
 	display: block;
-	font: bold 16px "Microsoft YaHei";
+	font: bold 16px "Microsoft YaHei", STXihei;
 	color: rgb(204, 118, 128);
 	text-decoration: underline;
 	padding-bottom: 12px;	/*当margin-bottom: 14px; mac下间隔正确, 可是windows下就多出了空白部分*/
@@ -192,7 +192,7 @@ main {
 	/*mac 这里前端的字会往上紧跟How*/
 	display: block;
 	font-size: 12px;
-	font-family: "SimSun";
+	font-family: "SimSun", STXihei;
 	color: rgba(35, 24, 21, 0.7);
 	margin-bottom: 12px;
 }
@@ -207,13 +207,13 @@ main {
 	padding-bottom: 16px;	/*为了实现16px的下内边距, 块的高度显式地设为了10px. 肯定还有更好的办法, inline-block? 或者用p instead pf scan?*/
 	height: 10px;
 	display: block;
-	font: 12px "Microsoft YaHei";
+	font: 12px "Microsoft YaHei", STXihei;
 	color: #231815;
 }
 
 .mid_right span.down_down span.what span.red {
 	vertical-align: bottom;
-	font: oblique 12px "Microsoft YaHei";
+	font: oblique 12px "Microsoft YaHei", STXihei;
 	color: rgba(205, 74, 72, 0.7);
 }
 
@@ -222,7 +222,7 @@ main {
 /****************************************/
 .mid_mid span.up {
 	display: block;
-	font: bold 16px "Microsoft YaHei";
+	font: bold 16px "Microsoft YaHei", STXihei;
 	color: #d2994f;
 	text-decoration: underline;
 	position: absolute;
@@ -233,7 +233,7 @@ main {
 .mid_mid span.down {
 	display: block;
 	font-size: 12px;
-	font-family: "SimSun";
+	font-family: "SimSun", STXihei;
 	width: 210px;
 	color: rgba(35, 24, 21, 0.7);
 	position: absolute;
@@ -246,7 +246,7 @@ main {
 /****************************************/
 .mid_left span.up {
 	display: block;
-	font: bold 16px "SimSun";
+	font: bold 16px "SimSun", STXihei;
 	color: #418c59;
 	text-decoration: underline;
 	position: absolute;
@@ -257,7 +257,7 @@ main {
 .mid_left span.down {
 	display: block;
 	font-size: 12px;
-	font-family: "SimSun";
+	font-family: "SimSun", STXihei;
 	width: 228px;
 	color: rgba(35, 24, 21, 0.7);
 	position: absolute;
@@ -302,7 +302,7 @@ main {
 
 .down_right_up .blackback span#qianduanjishu {
 	color: rgba(255, 255, 255, 1);
-	font: 26px "Microsoft YaHei";
+	font: 26px "Microsoft YaHei", STXihei;
 	position: absolute;
 	top: 12px;
 	left: 50px;
@@ -334,7 +334,7 @@ main {
 	padding: 30px 30px 0;
 	list-style-position: inside;
 	list-style-image: url('../image/tri.png');
-	font: 16px "SimSun";
+	font: 16px "SimSun", STXihei;
 	text-align: left;
 	color: #5a5b5b;
 }
@@ -344,18 +344,18 @@ main {
 }
 
 .down_right_down li span#qianduan_xie {
-	font: oblique 12px "SimSun";
+	font: oblique 12px "SimSun", STXihei;
 	text-align: right;
 	color: #5a5b5b;
 }
 
 .down_right_down .down_right {
-	margin: 10px 10px 0 288px;
+	margin: 10px 10px 0 278px;
 	position: relative;
 }
 
 .down_right_down .down_right p {
-	font: oblique 12px 黑体;
+	font: oblique 12px 黑体, STXihei;
 	color: #5a5b5b;
 	line-height: 16px;
 	width: 170px;	/* vertical-align: center; */
@@ -365,7 +365,7 @@ q::before,
 q::after {
 	quotes: '“' '”';
 	color: #d45d5c;
-	font: 72px "SimHei";
+	font: 72px "SimHei", STXihei;
 	line-height: 16px;	/* vertical-align: bottom;
 	line-height: 16px; */
 }
@@ -380,7 +380,7 @@ q::before {
 q::after {
 	position: absolute;
 	bottom: -28px;
-	right: -25px;
+	right: -30px;
 }
 
 .down_right_down .down_left {
@@ -393,11 +393,13 @@ q::after {
 }
 
 .down_right_down .down_left #zero {
-	font: 110px "Microsoft YaHei";
+	font: 110px "Microsoft YaHei", STXihei;
 	color: #fff;
 	position: absolute;
-	top: 4px;
+	/* top: 4px; */
+	top: 29px;
 	bottom: 0;
+	/* left: 5px; */
 	left: 5px;
 	right: 0;
 	margin: auto;
@@ -427,16 +429,16 @@ q::after {
 
 #count1 {
 	display: inline-block;
-	font: 21px "SimHei";	/* line-height: 24px; */
+	font: 21px "SimHei", STXihei;	/* line-height: 24px; */
 }
 
 #count2 {
 	display: inline-block;
-	font: 21px "SimHei";	/* line-height: 24px; */
+	font: 21px "SimHei", STXihei;	/* line-height: 24px; */
 }
 
 #hw {
-	font: 12px "Simhei";	/* line-height: 14px; */
+	font: 12px "Simhei", STXihei;	/* line-height: 14px; */
 	width: 150px;
 }
 
@@ -456,11 +458,11 @@ q::after {
 .down_left_up .run {
 	display: run-in;
 	color: #f5e327;
-	font: bold oblique 72px "SimHei";
+	font: bold oblique 72px "SimHei", STXihei;
 }
 
 .down_left_up .title {
-	font: bold 42px "SimHei";
+	font: bold 42px "SimHei", STXihei;
 	color: #11456b;
 	line-height: 26px;
 }
@@ -468,7 +470,7 @@ q::after {
 .down_left_up .sub_title {
 	display: inline-block;
 	padding-top: 15px;
-	font: bold 33px "SimHei";
+	font: bold 33px "SimHei", STXihei;
 	color: #11456b;
 	margin-bottom: 18px;
 }
@@ -487,7 +489,7 @@ q::after {
 }
 
 .down_left_down .run2 {
-	font: 70px "Microsoft YaHei";
+	font: 70px "Microsoft YaHei", STXihei;
 	color: #f5e327;
 	float: left;
 	margin: -15px 8px 0 -4px;
@@ -495,7 +497,7 @@ q::after {
 
 .down_left_down p {
 	display: run-in;
-	font: 12px "SimSun";
+	font: 12px "SimSun", STXihei;
 	text-align: 16px;
 	text-indent: 2em;
 	color: #767777;
@@ -523,9 +525,9 @@ footer #bottom_line {
 }
 
 footer span {
-	font: 12px "SimHei";
+	font: 12px "SimHei", STXihei;
 	color: #d45d5c;
 	position: relative;
-	top: -5px;
+	top: 0;
 	left: 815px;
 }
