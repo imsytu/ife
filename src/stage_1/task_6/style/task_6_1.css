@@ -404,6 +404,7 @@ q::after {
 }
 
 .down_right_down .down_left #zero {
+	display: block;
 	width: 64px;
 	max-width: 64px;
 	min-width: 64px;
@@ -412,12 +413,13 @@ q::after {
 	min-height: 145px;
 	font: 110px "Microsoft YaHei", STXihei;
 	color: #fff;
-	position: absolute;
+	margin-top: 5px;
+	margin-left: 6px;
+	/* position: absolute;
 	top: 5px;
-	/* top: 29px; */
 	bottom: 0;
 	left: 6px;
-	right: 0;
+	right: 0; */
 }
 
 .down_right_down .down_left #ver_line {
