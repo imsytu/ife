@@ -309,15 +309,16 @@ main {
 	margin: auto 35px;
 }
 
-.down_right_up .blackback span#qianduanjishu {
+.down_right_up .blackback span#qianduanjishu_1 {
 	color: rgba(255, 255, 255, 1);
 	font: 26px "Microsoft YaHei", STXihei;
+	line-height: 26px;
 	position: absolute;
-	top: 12px;
+	top: 17px;
 	left: 50px;
 }
 
-.down_right_up .blackback span#qianduanjishu_green {
+.down_right_up .blackback span#qianduanjishu_2 {
 	font: oblique 12px "Microsoft YaHei";
 	color: #72b16a;
 	position: absolute;
